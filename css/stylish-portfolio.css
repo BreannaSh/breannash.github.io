@@ -14,6 +14,19 @@ body {
   /*font-family: 'Poiret One', cursive;*/
 }
 
+.container2 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.top-right {
+    position: absolute;
+    top: 24px;
+    right: 2px;
+}
+
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
@@ -272,7 +285,7 @@ h8 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #ffffffB3;
   margin: auto 2rem 2rem;
 }
 
