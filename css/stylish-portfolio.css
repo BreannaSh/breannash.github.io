@@ -17,13 +17,13 @@ body {
 .container2 {
     position: relative;
     text-align: center;
-    color: black;
+    color: #F5E4DC;
 }
 
 .top-right {
     position: absolute;
-    top: 24px;
-    right: 2px;
+    top: 140px;
+    right: 10px;
 }
 
 
