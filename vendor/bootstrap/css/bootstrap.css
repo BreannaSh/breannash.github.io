@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -488,6 +489,13 @@ mark,
 
 .img-fluid {
   max-width: 550px;
+  height: auto;
+    }
+
+.img-fluid5 {
+  max-width: 216px;
+  min-height: 216px;
+
   height: auto;
     }
 

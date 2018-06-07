@@ -108,7 +108,9 @@ Media
               <img class="img-fluid3" src="img/againFacelessWomen/portfolio_again.jpg" alt="">
             </a>
                              <p style = "text-align:center; font-size:20px"><b>HEADLESSNESS
-                             </b><hr></hr></br>
+                             </b>
+                             <br>
+                             <br>
                              </p>
 
           </div>
@@ -126,10 +128,6 @@ Media
               </span>
               <img class="img-fluid" src="img/portfolio_itswethair.jpg" alt="">
             </a>
-            <br>
-            <p style = "text-align: right; font-size:20px"><b><strike>FA
-                             </b></strike><hr></hr></br>
-                             </p>
           </div>
 
           <div class="col-lg-6">
@@ -141,13 +139,175 @@ Media
               </span>
               <img class="img-fluid" src="img/portfolio-1.jpg" width="100%">
             </a>
-            <br>
-            <p style = "text-align: left; font-size:20px"><b><strike>CE
-                             </b></strike><hr></hr></br>
-                             </p>
           </div>
+
+          <div class="col-lg-12">
+          <br>
+ <p style = "text-align: center; font-size:20px"><b><strike>FACE
+                             </b></strike>
+                             <br>
+                             <br>
+                             </p>
+</div>
         </div>
 
+
+        <!-- aquí van los cuadritos -->
+
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-2.5">
+            <a class="portfolio-item5" onclick="openModal();currentSlide(1)">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Legs for Days</h2>
+                </span>
+              </span>
+              <img class="img-fluid5" src="img/portfolio-1.jpg" style="width:100%" onclick="openModal();currentSlide(1)">
+            </a>
+            <br>
+          </div>
+
+                   <div class="col-lg-2.5">
+            <a class="portfolio-item5" onclick="openModal();currentSlide(2)">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Legs for Days</h2>
+                </span>
+              </span>
+              <img class="img-fluid5" src="img/portfolio_itswethair.jpg" style="width:100%" onclick="openModal();currentSlide(2)">
+            </a>
+            <br>
+          </div>
+
+                    <div class="col-lg-2.5">
+            <a class="portfolio-item5" onclick="openModal();currentSlide(3)">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Legs for Days</h2>
+                </span>
+              </span>
+              <img class="img-fluid5" src="img/portfolio-1.jpg" style="width:100%" onclick="openModal();currentSlide(3)">
+            </a>
+            <br>
+          </div>
+
+                    <div class="col-lg-2.5">
+            <a class="portfolio-item5" onclick="openModal();currentSlide(4)">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Legs for Days</h2>
+                </span>
+              </span>
+              <img class="img-fluid5" src="img/portfolio_itswethair.jpg" style="width:100%" onclick="openModal();currentSlide(4)">
+            </a>
+            <br>
+          </div>
+
+                              <div class="col-lg-2.5">
+            <a class="portfolio-item5" onclick="openModal();currentSlide(5)">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Legs for Days</h2>
+                </span>
+              </span>
+              <img class="img-fluid5" src="img/portfolio-1.jpg" style="width:100%" onclick="openModal();currentSlide(5)">
+            </a>
+            <br>
+          </div>
+           <div class="col-lg-12">
+ <p style = "text-align: center; font-size:20px"><b>HOLA
+                             </b>
+                             <br>
+                             <br>
+                             </p>
+</div>
+        </div>
+
+
+<!-- modal -->
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 5</div>
+      <img src="img/itswethair/01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 5</div>
+      <img src="img/againFacelessWomen/01.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 5</div>
+      <img src="img/itswethair/01.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 5</div>
+      <img src="img/againFacelessWomen/01.jpg" style="width:100%">
+    </div>
+
+        <div class="mySlides">
+      <div class="numbertext">5 / 5</div>
+      <img src="img/itswethair/01.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!--<div class="caption-container">
+      <p id="caption"></p>
+    </div>-->
+</div>
+</div>
+
+<!-- js -->
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+      
          <div class="row no-gutters">
 
                 <div class="col-lg-12">
@@ -211,7 +371,7 @@ Media
                         <br>
             <p style = "text-align: right; font-size:20px"><b>{ Bookendin
 
-                             </b><hr></hr></br>
+                             </b></hr></br>
                              </p>
           </div>
 
@@ -229,7 +389,7 @@ Media
             <br>
             <p style = "text-align: left; font-size:20px"><b>g the Body }
 
-                             </b><hr></hr></br>
+                             </b></hr></br>
                              </p>
           </div>
                     </div>
@@ -249,13 +409,14 @@ Media
             <br>
             <p style = "text-align: left; font-size:20px"><b>g the Body }
 
-                             </b><hr></hr></br>
+                             </b></hr></br>
                              </p>
           </div>
         </div>
         -->
 
     </section>
+
 <!--
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
@@ -275,7 +436,7 @@ Media
           <div class="col-lg-10 mx-auto">
           <br><br>
             <h2>Breanna Shanahan</h2>
-            <hr></hr>
+            </hr>
             <p class="lead mb-5">Breanna is _ _ .
               <a href="https://unsplash.com/">_</a>!</p>
         <!--    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">*</a>
