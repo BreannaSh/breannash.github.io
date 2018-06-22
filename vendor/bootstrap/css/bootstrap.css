@@ -499,6 +499,20 @@ mark,
   height: auto;
     }
 
+.img-fluid6 {
+  max-width: 270px;
+  min-height: 270px;
+
+  height: auto;
+    }
+
+.img-fluid7 {
+  max-width: 364px;
+  min-height: 364px;
+
+  height: auto;
+    }
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
