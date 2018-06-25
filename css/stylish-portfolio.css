@@ -387,7 +387,7 @@ h8 {
   height: 30rem;
 }
 
-@media (max-width: 992px) {
+@media screen and (max-width: 750px) {
   .map {
     height: 75%;
   }
@@ -442,7 +442,7 @@ h8 {
   padding: 0;
 }
 
-@media (min-width: 992px) {
+@media screen and (max-width: 750px) {
   .masthead {
     height: 100vh;
   }
@@ -986,7 +986,65 @@ h8 {
 /**/
 
 
-@media (min-width: 992px) {
+@media screen and (max-width: 750px) {
+
+/* portfolio _ item 3 - 1st image */
+
+.portfolio-item3 {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  min-width: width;
+    min-height: 100%;
+  margin: auto auto 1rem;
+}
+
+.portfolio-item3 .caption {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.portfolio-item3 .caption .caption-content {
+  color: #ffffffB3;
+  margin: auto 5rem 3rem;
+}
+
+.portfolio-item3 .caption .caption-content h2 {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item3 .caption .caption-content p {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+  .portfolio-item3 img {
+    -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+
+
+  .portfolio-item3:hover .caption {
+    background-color: rgba(255, 231, 222, 0.6);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(0rem);
+  }
+
+  .portfolio-item3:hover img {
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+  }
+
+
+/**/
 
 
   .portfolio-item {
