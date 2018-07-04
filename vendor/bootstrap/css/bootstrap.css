@@ -588,6 +588,106 @@ pre code {
   margin-left: auto;
 }
 
+/* for ipad */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) {
+
+
+.content-section {
+    padding-top: 1rem;
+    padding-bottom: 75rem;
+}
+
+.container {
+    max-width: 100%;
+}
+
+  .img-fluid2 {
+    max-width: 930px;
+    height: auto;
+  }
+
+    .img-fluid3 {
+    max-width: 930px;
+    height: auto;
+  }
+
+
+    .img-fluid {
+    width: 460px;
+    height: auto;
+  }
+
+.col-12, .col-lg-12, .col-sm-12, .col-xl-12 {
+    position: relative;
+    width: 100%;
+    height: 320px;
+        padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+.col-6, .col-lg-6, .col-sm-6, .col-xl-6 {
+    position: relative;
+    width: 465px;
+    height: 100%;
+}
+
+
+}
+
+/* for ipad pro */
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) { 
+
+  .container {
+    max-width: 100%;
+  }
+
+  .img-fluid2 {
+    max-width: 927px;
+    height: auto;
+  }
+
+ .img-fluid3 {
+    max-width: 927px;
+    height: auto;
+  }
+
+  .img-fluid {
+    width: 460px;
+    height: 313px;
+  }
+
+.img-fluid7 {
+    max-width: 306px;
+    height: 306px;
+  }
+  
+
+.col-12, .col-lg-12, .col-sm-12, .col-xl-12 {
+    position: relative;
+    width: 100%;
+    height: 313px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.col-6, .col-lg-6, .col-sm-6, .col-xl-6 {
+
+    position: relative;
+    width: 470px;
+    height: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+}
+
 /* for iphone */
 
 @media only screen 
@@ -648,7 +748,7 @@ and (max-device-width : 667px) {
     padding-left: 20px;
 }
 
-.col-6, .col-lg-6, .col-xl-6 {
+.col-6, .col-lg-6, .col-sm-6, .col-xl-6 {
 
     position: relative;
     width: 50%;
@@ -675,8 +775,16 @@ and (max-device-width : 667px) {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    max-width: 100%;
   }
+  .portfolio-item3 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 800px;
+    min-height: 370px;
+    margin: auto auto 1rem;
+}
 }
 
 @media (min-width: 992px) {
@@ -6198,13 +6306,13 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+    background-color: rgba(255, 99, 71, 0);
 }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
 button.bg-light:focus {
-  background-color: #dae0e5 !important;
+    background-color: rgba(255, 99, 71, 0);
 }
 
 .bg-dark {

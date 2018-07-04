@@ -1116,13 +1116,353 @@ sub {
 }
 
 
-/* */
+/* ipad */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) { 
+
+.top-right {
+    position: absolute;
+    top: 140px;
+    right: 10px;
+}
+
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.content1-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content1-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content1-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+      background-color: rgba(255,200,255,0);
+}
+
+h8 {
+  font-size:18px;
+  font-weight: 7;
+  color: rgba(150,150,150);
+
+}
+
+
+.text-faded {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/**/
+
+
+  table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 35px;
+    border-color: grey;
+    margin-top: -250px;
+  }
+
+.portfolio-item3 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 930px;
+    min-height: 30px;
+    margin: auto auto 1rem;
+}
+
+.portfolio-item3 .caption {
+    display: flex;
+    height: 310px;
+    width: 930px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.portfolio-item2 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 930px;
+    min-height: 365px;
+    margin: auto auto 1rem;
+}
+
+.portfolio-item2 .caption {
+    display: flex;
+    height: 365px;
+    width: 930px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+    .portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 465px;
+    height: auto;
+    box-sizing: 1px;
+    margin: auto auto 0rem;
+  }
+
+  .portfolio-item .caption {
+    display: flex;
+    min-width: 465px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+/* ipad pro */
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1366px) { 
+
+.top-right {
+    position: absolute;
+    top: 140px;
+    right: 10px;
+}
+
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.content1-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content1-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content1-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+      background-color: rgba(255,200,255,0);
+}
+
+h8 {
+  font-size:18px;
+  font-weight: 7;
+  color: rgba(150,150,150);
+
+}
+
+
+.text-faded {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/**/
+  table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 35px;
+    border-color: grey;
+    margin-top: -250px;
+  }
+
+  .portfolio-item3 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 927px;
+    min-height: 313px;
+    margin: auto auto 0rem;
+}
+
+.portfolio-item3 .caption {
+    display: flex;
+    height: 313px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+
+    .portfolio-item7 {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 309px;
+    height: auto;
+    box-sizing: 1px;
+    margin: auto auto 0rem;
+  }
+
+  .portfolio-item7 .caption {
+    display: flex;
+        min-width: 309px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  .portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    min-width: 470px;
+    height: 313px;
+    box-sizing: 1px;
+    margin: auto auto 0rem;
+  }
+
+  .portfolio-item .caption {
+    display: flex;
+        min-width: 470px;
+    height: 313px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+}
+
+
+
+
+/* iphone 6/7/8*/
 
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) { 
 
+.top-right {
+    position: absolute;
+    top: 140px;
+    right: 10px;
+}
 
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.content1-section {
+  padding-top: 1rem;
+  padding-bottom: 7.5rem;
+}
+
+.content1-section-heading h2 {
+  font-size: 6rem;
+}
+
+.content1-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+      background-color: rgba(255,200,255,0);
+}
+
+h8 {
+  font-size:18px;
+  font-weight: 7;
+  color: rgba(150,150,150);
+
+}
+
+
+.text-faded {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/**/
 
   table {
     display: table;
